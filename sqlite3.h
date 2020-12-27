@@ -2343,8 +2343,9 @@ struct sqlite3_mem_methods {
 #define SQLITE_DBCONFIG_DEFENSIVE             1010 /* int int* */
 #define SQLITE_DBCONFIG_WRITABLE_SCHEMA       1011 /* int int* */
 #define SQLITE_DBCONFIG_LEGACY_ALTER_TABLE    1012 /* int int* */
-#define SQLITE_DBCONFIG_DQS_DML               1013 /* int int* */
-#define SQLITE_DBCONFIG_DQS_DDL               1014 /* int int* */
+// Study Notes:
+#define SQLITE_DBCONFIG_DQS_DML               1013 /* int int* */ // 数据操作语言，用来操作数据，比如select语句
+#define SQLITE_DBCONFIG_DQS_DDL               1014 /* int int* */ // 数据定义语言，用来定义表，比如crate table语句
 #define SQLITE_DBCONFIG_ENABLE_VIEW           1015 /* int int* */
 #define SQLITE_DBCONFIG_LEGACY_FILE_FORMAT    1016 /* int int* */
 #define SQLITE_DBCONFIG_TRUSTED_SCHEMA        1017 /* int int* */
