@@ -4,7 +4,7 @@
 ## 学习进度
 #### 阶段一
 1. 快速浏览sqlite3.h
-当前行：5788
+当前行：6137
 ## 如何调试源代码
 1. 下载安装[lldb](https://apt.llvm.org/)
 1. 编译安装sqlite3
@@ -17,3 +17,11 @@
     * b resolveSelectStep
 1. 重启sqlite3进程.`(lldb)c`
 1. 触发断点.`sqlite>select * from users;`
+
+学习资料链接：
+1. [SQLite的结构体系](https://www.sqlite.org/arch.html)
+1. [SQLite源码分析](http://huili.github.io/index.html)
+1. [官方文档里的Technical and Design Documentation章节](https://sqlite.org/docs.html)
+1. [API方法列表](http://sqlite.org/c3ref/funclist.html)
+1. 《inside sqlite》
+1. 《SQLite Database System: Design and Implementation>》
